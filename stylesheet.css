@@ -1,0 +1,83 @@
+	body {
+		color: white;
+		margin: 0;
+		font-family: vivaldi;
+		background-color: #cccccc;
+	}
+	#header {
+		float: top;
+		background-color: white;
+		font-size: 600%;
+		text-align: center;
+		font-family: Vivaldi;
+		color: gray;
+		position: absolute;
+		width: 100%;
+		top: 50px;
+		opacity: 0.9;
+		z-index: 2;
+	}
+
+	#logo {
+		position: absolute;
+		right: 25px;
+		top: -28px;
+		z-index: 2;
+	}
+	#galerija {
+		position: relative;
+		background-color: gray;
+		font-size: 30px;
+		top: 610%;
+		text-align: center;
+		opacity: 1;
+	}
+	.gumb:visited, .gumb:link {
+		padding: 3px 40px;
+		text-decoration: none;
+		color: white;
+		text-align: center;
+	}
+	.gumb:active, .gumb:hover {
+		background-color: #333333
+	}
+	.navrh {
+		padding: 3px 30px;
+		text-decoration: none;
+		color: white;
+		text-align: center;
+		position: relative;
+		left: 46%;
+		z-index: 2;
+		bottom: 100px;
+		background-color: gray;
+		font-size: 40px;
+		border-radius: 10px;
+		opacity: 0.9;
+	}
+	#text {
+		position: absolute;
+		width: 80%;
+		left: 10%;
+		background-color: #f2f2f2;
+		opacity: 0.9;
+		text-align: center;
+		padding: 20px;
+		top: 300px;
+		color: #333333;
+		font-family: Comic Sans MS;
+		font-size: 26px;
+		border-radius: 25px;
+	}
+	.imgtitle {
+		position: absolute;
+    	top: 80px;
+    	left: 100px;
+    	font-size: 24px;
+    	padding: 15px;
+    	background-color: white;
+    	color: black;
+    	font-family: forte;
+    	opacity: 0.8;
+    	border-radius: 5px;
+	}
